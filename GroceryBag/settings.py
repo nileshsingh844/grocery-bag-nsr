@@ -34,7 +34,7 @@ SECRET_KEY = config('SECRET_KEY') # Get value from environment variables
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG') # Get value from environment variables
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'grocery-bag-nsr.herokuapp.com.'] # Add these two for now
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'grocery-bag-nsr.herokuapp.com'] # Add these two for now
 
 
 # Application definition
